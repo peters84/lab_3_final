@@ -5,12 +5,18 @@ package lab_3;
 
 import java.util.Scanner;
 
-import linkedImpl.Main;
 import arrayImpl.InternalJobOpeningArrayDemo;
+import linkedImpl_test.Main;
 
 /**
+ * 
+ * Main class used to launch a demonstration of a program using an Priority queue.
+ * You can choose between 1)Array implementation and 2)Linked List
+ * Originally indented to pass an array of employees to each implementation to
+ * demo similar outputs. 
  * @author Peter Socha
- *
+ * @version 1.0
+ * 
  */
 public class InternalJobOpeningDemo {
 
@@ -18,7 +24,7 @@ public class InternalJobOpeningDemo {
 	 * @param args
 	 */	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		//Array of 41 employees using COEN 352's participant list
 		Employee[] entrants =
 				
 			{new Employee("Ahmad El-Baher", "20100405")
@@ -68,6 +74,7 @@ public class InternalJobOpeningDemo {
 		Scanner keyboardScanner = new Scanner(System.in);
 		int option = keyboardScanner.nextInt();
 		
+		//Chooses a demo and exits once done.
 		switch(option){
 			case 1:System.out.println("Pressed 1");
 				keyboardScanner.close();

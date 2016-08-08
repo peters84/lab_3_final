@@ -6,8 +6,11 @@ package arrayImpl;
 import lab_3.Employee;
 
 /**
- * @author USe
- *
+ * @author Peter Socha
+ * @version 1.0
+ * 
+ * Creates a waiting list and demonstrates 
+ * adding and removing(hiring) employees to it.
  */
 public class InternalJobOpeningArrayDemo {
 

@@ -1,0 +1,90 @@
+Choose implementation type:
+ 1)Array
+ 2)Linked List
+1
+Pressed 1
+Empty
+Waiting list array contents: 
+
+1 entry
+Attempting to add employee Full Name:Ahmad El-Baher Date of Hire: 2010-4-5
+Waiting list array contents: 
+Full Name:Ahmad El-Baher Date of Hire: 2010-4-5
+
+3 entries
+Attempting to add employee Full Name:Alexei Ostroouchko Date of Hire: 2010-4-12
+Attempting to add employee Full Name:Ali Mouawieh Date of Hire: 2010-6-17
+Waiting list array contents: 
+Full Name:Ali Mouawieh Date of Hire: 2010-6-17
+Full Name:Alexei Ostroouchko Date of Hire: 2010-4-12
+Full Name:Ahmad El-Baher Date of Hire: 2010-4-5
+
+10 entries
+Attempting to add employee Full Name:Amit Desai Date of Hire: 2010-8-23
+Attempting to add employee Full Name:Ankit Rajan Date of Hire: 2010-9-14
+Attempting to add employee Full Name:Anthony Fiorito Date of Hire: 2011-0-17
+Attempting to add employee Full Name:Barnali Ahmed Date of Hire: 2011-1-17
+Attempting to add employee Full Name:Catherine Nguyen Date of Hire: 2011-2-17
+Attempting to add employee Full Name:Christian Kellner Date of Hire: 2011-4-1
+Attempting to add employee Full Name:Fahim Tazwar Hossain Date of Hire: 2011-6-1
+Waiting list array contents: 
+Full Name:Fahim Tazwar Hossain Date of Hire: 2011-6-1
+Full Name:Christian Kellner Date of Hire: 2011-4-1
+Full Name:Catherine Nguyen Date of Hire: 2011-2-17
+Full Name:Barnali Ahmed Date of Hire: 2011-1-17
+Full Name:Anthony Fiorito Date of Hire: 2011-0-17
+Full Name:Ankit Rajan Date of Hire: 2010-9-14
+Full Name:Amit Desai Date of Hire: 2010-8-23
+Full Name:Ali Mouawieh Date of Hire: 2010-6-17
+Full Name:Alexei Ostroouchko Date of Hire: 2010-4-12
+Full Name:Ahmad El-Baher Date of Hire: 2010-4-5
+
+Seek out highest seniority person 
+Full Name:Ahmad El-Baher Date of Hire: 2010-4-5
+Waiting list array contents: 
+Full Name:Fahim Tazwar Hossain Date of Hire: 2011-6-1
+Full Name:Christian Kellner Date of Hire: 2011-4-1
+Full Name:Catherine Nguyen Date of Hire: 2011-2-17
+Full Name:Barnali Ahmed Date of Hire: 2011-1-17
+Full Name:Anthony Fiorito Date of Hire: 2011-0-17
+Full Name:Ankit Rajan Date of Hire: 2010-9-14
+Full Name:Amit Desai Date of Hire: 2010-8-23
+Full Name:Ali Mouawieh Date of Hire: 2010-6-17
+Full Name:Alexei Ostroouchko Date of Hire: 2010-4-12
+Full Name:Ahmad El-Baher Date of Hire: 2010-4-5
+
+Remove highest seniority person 
+Full Name:Ahmad El-Baher Date of Hire: 2010-4-5
+Waiting list array contents: 
+Full Name:Fahim Tazwar Hossain Date of Hire: 2011-6-1
+Full Name:Christian Kellner Date of Hire: 2011-4-1
+Full Name:Catherine Nguyen Date of Hire: 2011-2-17
+Full Name:Barnali Ahmed Date of Hire: 2011-1-17
+Full Name:Anthony Fiorito Date of Hire: 2011-0-17
+Full Name:Ankit Rajan Date of Hire: 2010-9-14
+Full Name:Amit Desai Date of Hire: 2010-8-23
+Full Name:Ali Mouawieh Date of Hire: 2010-6-17
+Full Name:Alexei Ostroouchko Date of Hire: 2010-4-12
+
+Give everyone a job
+Full Name:Alexei Ostroouchko Date of Hire: 2010-4-12 was hired!
+Full Name:Ali Mouawieh Date of Hire: 2010-6-17 was hired!
+Full Name:Amit Desai Date of Hire: 2010-8-23 was hired!
+Full Name:Ankit Rajan Date of Hire: 2010-9-14 was hired!
+Full Name:Anthony Fiorito Date of Hire: 2011-0-17 was hired!
+Full Name:Barnali Ahmed Date of Hire: 2011-1-17 was hired!
+Full Name:Catherine Nguyen Date of Hire: 2011-2-17 was hired!
+Full Name:Christian Kellner Date of Hire: 2011-4-1 was hired!
+Full Name:Fahim Tazwar Hossain Date of Hire: 2011-6-1 was hired!
+Waiting list array contents: 
+
+Add 4 entries, 2 of which have the same priority
+Attempting to add employee Full Name:Hassan Syyed Date of Hire: 2014-1-27
+Attempting to add employee Full Name:Hendrik Oosenbrug Date of Hire: 2014-9-17
+Attempting to add employee Full Name:Ho Man Chan Date of Hire: 2014-3-21
+Attempting to add employee Full Name:Ivan Ilyushchenko Date of Hire: 2014-9-17
+Waiting list array contents: 
+Full Name:Ivan Ilyushchenko Date of Hire: 2014-9-17
+Full Name:Hendrik Oosenbrug Date of Hire: 2014-9-17
+Full Name:Ho Man Chan Date of Hire: 2014-3-21
+Full Name:Hassan Syyed Date of Hire: 2014-1-27

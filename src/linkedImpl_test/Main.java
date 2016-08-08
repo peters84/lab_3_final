@@ -1,12 +1,18 @@
-package linkedImpl;
+package linkedImpl_test;
 
+/** A client program that tests the class LinkedPriorityQueue */
 public class Main {
 	
 	public static void main(String args[]){
 		
-		/** Elements with smallest integer value have the highest priority value. Elements that have same priority value
-		 	are placed in the queue according to the order in which they were added */
+		/** Elements with smaller priority value have the highest priority.
+		 *  Elements that have same priority value are placed in the queue according
+		 *  to the order in which they were added 
+		 */
+		
+		// Declare a new object of the LinkedPriorityQueue class
 		PriorityQueueInterface<String> myqueue = new LinkedPriorityQueue<String>();
+		// Add elements to the queue
 		myqueue.add("John", "2");
 		myqueue.add("Jill", "2");
 		myqueue.add("Jim", 	"3");
@@ -18,7 +24,7 @@ public class Main {
 		
 		System.out.println("The queue elements are: ");
 		
-		// The queue order displayed is correct
+		// Displays the queue
 		myqueue.display();
 		
 		// Retrieves the front element of the queue which is Jack
@@ -49,15 +55,21 @@ public class Main {
 		// Display the queue
 		myqueue.display();
 		
+		// Removes the element at the front of the queue which is Shehryar
 		System.out.println("\nThe element removed from the front is: " + myqueue.remove());
+		// Removes the element at the front of the queue which is Taha
 		System.out.println("The element removed from the front is: " + myqueue.remove());
+		// Removes the element at the front of the queue which is Omer
 		System.out.println("The element removed from the front is: " + myqueue.remove());
+		// Retrieves the element at the front of the queue which is Jill
 		System.out.println("The element stored at the front of the queue is: " + myqueue.peek());
 		System.out.println("\nThe queue contains: ");
+		// Displays the queue
 		myqueue.display();
+		// Should return false 
 		System.out.println("Is the queue empty: " + myqueue.isEmpty());
 		
-	}
+	}// end main method
 	
 	
-}
+}// end Main 
